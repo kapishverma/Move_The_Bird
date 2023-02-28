@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: cyan;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    position: absolute;
+}
+.ball {
+    width: 90px;
+    height: 90px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 4s linear;
+    top: 0;
+    left: 0;
+}
+
+#button {
+    height: 80px;
+    width: 120px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.bi {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 0%;
+    position: absolute;
+}
+
+.bi-arrow-up-square {
+    top: 0;
+    left: 40px;
+}
+
+.bi-arrow-right-square {
+    bottom: 0;
+    right: 0;
+}
+
+.bi-arrow-left-square {
+    bottom: 0;
+    left: 0;
+}
+
+.bi-arrow-down-square {
+    bottom: 0;
+    left: 40px;
+}
