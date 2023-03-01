@@ -56,7 +56,7 @@ ball.style.top = "0";
 }
 
 function downFunction() {
-    ball.style.top = "calc(100vh - 90px)";
+    ball.style.top = "calc(100vh - 100px)";
 }
 
 function leftFunction() {
@@ -64,5 +64,5 @@ function leftFunction() {
 }
 
 function righFfunction() {
-    ball.style.left = "calc(100vw - 90px)";
+    ball.style.left = "calc(100vw - 100px)";
 }
