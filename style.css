@@ -17,23 +17,25 @@ body {
     position: absolute;
 }
 .ball {
-    width: 90px;
-    height: 90px;
+    min-width: 100px;
+    height: 100px;  
     position: absolute;
     top: 0;
     left: 0;
     background-image: url("parrot.gif");
     background-size: contain;
     transition: all 10s linear;
-   // background-color: gold;
-   // clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-   // animation: name 10s linear infinite;
 }
-// @keyframes name {
-// 100%{
-//    transform: rotate(360deg);   
-//  }  
-//}
+
+/* background-color: gold;
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+animation: name 10s linear infinite;
+}
+ @keyframes name {
+ 100%{
+    transform: rotate(360deg);   
+  }  
+} */
 
 #button {
     height: 80px;
